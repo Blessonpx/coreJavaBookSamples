@@ -8,5 +8,8 @@ public class EmployeeTest{
     Manager m = new Manager("Jane", 2000, 2000, 1, 1);
     System.out.println(m.getName());
     System.out.println(m.getSalary());
+    m.setBonus(100000);
+    System.out.println("after adding bonus");
+    System.out.println(m.getSalary());
   }
 }
